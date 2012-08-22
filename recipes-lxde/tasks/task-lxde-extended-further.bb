@@ -9,7 +9,8 @@ inherit task
 
 RDEPENDS_${PN} = "\
     task-lxde-base \ 
-    lxdm \
+    lightdm \
+    lightdm-webkit-greeter \
     "
 
 RRECOMMENDS_${PN} = " \
